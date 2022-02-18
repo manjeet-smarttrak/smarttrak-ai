@@ -3,73 +3,105 @@ import ScrollToTop from "react-scroll-to-top";
 import {Link} from "react-router-dom";
 
 const Landing = () => {
-	return (
+    return (
         <section>
-            <div className="hero-banner w-100 mb-30px hero-block">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-7">
-                            <div className="hero-banner__img">
-                                <img className="img-fluid" src="images/banner/hero-banner.png" alt=""/>
-                            </div>
-                        </div>
-                        <div className="col-lg-5 pt-5">
-                            <div className="hero-banner__content">
-                                <h1>Artificial Intelligence of Things</h1>
-                                <p>Smarttrak AI is a AIOT company providing solutions to industry verticals, inferencing Deep
-                                    Learning Models on Edge based Internet Of Things Devices.</p>
-                                <Link to='/aboutus' className="button bg">
-                                    Know More
-                                </Link>
+            <div className="header header-bg-lg header-bg-shape border-bottom-1">
+                <div className="container-fluid p-lg-0">
+                    <div className="row m-lg-0">
+                        <div className="col-lg-6 p-lg-0">
+                            <div className="max-585 ms-auto">
+                                <div className="header-content">
+                                    <h1>Best Machine Learning Product Creator</h1>
+                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                                        bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh</p>
+                                    <div className="button-group button-group-animated">
+                                        <a href="https://templates.envytheme.com/erudex/default/contact.html"
+                                           className="btn main-btn">Get Started</a>
+                                        <a href="https://templates.envytheme.com/erudex/default/contact.html"
+                                           className="btn main-btn main-btn-white">Start A Free Trial</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className="header-image-shape">
+                    <img src="images/index/header-shape.png" alt="shape"/>
+                </div>
+                <div className="header-animation-shapes animation-d-none">
+                    <div className="header-animation-shape"></div>
+                </div>
             </div>
 
-            <div className="section-margin w-100 feature-block" id="FeatureBlock">
+            <div className="feature-section pt-min-100 pb-70">
                 <div className="container">
-                    <div className="section-intro pb-85px text-center">
-                        <h2 className="section-intro__title">AIoT Feature</h2>
-                        <p className="section-intro__subtitle">These solutions will
-                            focus primarily upon optimizing system and network operations as well as
-                            extracting value from industry data through dramatically improved analytics
-                            and decision-making processes.</p>
+                    <div className="section-title section-title-lg">
+                        <h2>Any Sufficiently Advanced <br/> Technology Is Indistinguishable From Magic</h2>
                     </div>
-
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-4">
-                                <div className="card card-feature text-center text-lg-left mb-4 mb-lg-0">
-                <span className="card-feature__icon">
-                  <i className="mdi mdi-puzzle"></i>
-                </span>
-                                    <h3 className="card-feature__title">Decision Making</h3>
-                                    <p className="card-feature__subtitle">The Artificial
-                                        Intelligence of Things will provide the ability to capture streaming data,
-                                        determine valuable attributes, and make decisions in real-time.</p>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-green">
+                                            <i className="fa-solid fa-chalkboard-user"></i>
+                                        </div>
+                                        <span>ML Technology</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
+                                        <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
+                                           className="redirect-link">Discover More <i
+                                            className="icofont-rounded-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="card card-feature text-center text-lg-left mb-4 mb-lg-0">
-                <span className="card-feature__icon">
-                  <i className="mdi mdi-mouse"></i>
-                </span>
-                                    <h3 className="card-feature__title">Business Solution</h3>
-                                    <p className="card-feature__subtitle">AI enhances the ability for big data analytics and IoT platforms to provide
-                                        value to each of these market segments.</p>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-yellow">
+                                            <i className="flaticon-voice-recognition"></i>
+                                        </div>
+                                        <span>ADI Technology</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
+                                        <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
+                                           className="redirect-link">Discover More <i
+                                            className="icofont-rounded-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="card card-feature text-center text-lg-left mb-4 mb-lg-0">
-                <span className="card-feature__icon">
-                  <i className="mdi mdi-headset"></i>
-                </span>
-                                    <h3 className="card-feature__title">AIoT Analytics</h3>
-                                    <p className="card-feature__subtitle">These solutions will
-                                        focus primarily upon optimizing system and network operations as well as
-                                        extracting value from industry data through dramatically improved analytics
-                                        and decision-making processes.</p>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-blue">
+                                            <i className="flaticon-machine-learning"></i>
+                                        </div>
+                                        <span>Data Tech</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
+                                        <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
+                                           className="redirect-link">Discover More <i
+                                            className="icofont-rounded-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-violet">
+                                            <i className="flaticon-processor"></i>
+                                        </div>
+                                        <span>AI Technology</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
+                                        <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
+                                           className="redirect-link">Discover More <i
+                                            className="icofont-rounded-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -77,199 +109,660 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="section-margin w-100 offer-block">
+            <div className="about-section bg-off-white pt-100 pb-70">
                 <div className="container">
-                    <div className="section-intro pb-85px text-center">
-                        <h2 className="section-intro__title">Features We Offer</h2>
-                        <p className="section-intro__subtitle">The Artificial Intelligence of Things is transformational for both technologies as
-                            AI adds value to IoT through machine learning and decision making and IoT
-                            adds value to AI through connectivity and data exchange. The AIoT market
-                            constitutes solutions, applications, and services involving AI in IoT Systems
-                            and IoT support of AI Solutions.</p>
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 pb-30">
+                            <div className="about-section-item about-item-image text-center">
+                                <img src="images/index/feature-shape-1.png" alt="shape"/>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 pb-30">
+                            <div className="about-section-item about-item-details">
+                                <div className="section-title section-title-left text-start">
+                                    <small>About Us</small>
+                                    <h2>Mission Is To Bring The Power Of Ml To Every Business</h2>
+                                </div>
+                                <div className="about-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.</p>
+                                    <ul>
+                                        <li>Advance Advisory Team</li>
+                                        <li>Advance Quality Experts</li>
+                                        <li>Many variations of passages</li>
+                                        <li>High-Quality Results</li>
+                                    </ul>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                        consequuntur magni.</p>
+                                    <a href="https://templates.envytheme.com/erudex/default/about-us.html"
+                                       className="btn main-btn">About Us</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
 
+            <div className="service-section pt-100 pb-70">
+                <div className="container">
+                    <div className="section-title section-title-lg">
+                        <small>Services</small>
+                        <h2>Our Purpose Is To Deliver Excellence <br/> In Service And Execution</h2>
+                        <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver
+                            excellence in service and Our purpose is to deliver excellence in service.</p>
+                    </div>
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="row offer-single-wrapper">
-                                <div className="col-lg-6 offer-single">
-                                    <div className="card offer-single__content text-center">
-                  <span className="offer-single__icon">
-                    <i className="mdi mdi-square-edit-outline"></i>
-                  </span>
-                                        <h4>Easy To Manage</h4>
-                                        <p>AI improves IoT operations and transforms IoT system
-                                            originated data into actionable insights.</p>
-                                    </div>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="flaticon-automation"></i>
                                 </div>
-
-                                <div className="col-lg-6 offer-single">
-                                    <div className="card offer-single__content text-center">
-                  <span className="offer-single__icon">
-                    <i className="mdi mdi-pencil-ruler"></i>
-                  </span>
-                                        <h4>Analytics Tool</h4>
-                                        <p>AIoT will be instrumental
-                                            in solving many existing problems, such as human asset management.</p>
-                                    </div>
+                                <div className="service-card-body">
+                                    <h3>Robotic Automation</h3>
+                                    <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
+                                        nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                                    <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
+                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
                                 </div>
                             </div>
-
-                            <div className="row offer-single-wrapper">
-                                <div className="col-lg-6 offer-single">
-                                    <div className="card offer-single__content text-center">
-                  <span className="offer-single__icon">
-                    <i className="mdi mdi-scissors-cutting"></i>
-                  </span>
-                                        <h4>Professionals Tools</h4>
-                                        <p>Enterprise is continuously strongly with the need to hire and retain
-                                            the best and brightest workers.</p>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 offer-single">
-                                    <div className="card offer-single__content text-center">
-                  <span className="offer-single__icon">
-                    <i className="mdi mdi-lightbulb-on-outline"></i>
-                  </span>
-                                        <h4>Ready Content</h4>
-                                        <p>AI Decision as a Service function for Human Asset Management professionals.</p>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
-                        <div className="col-lg-6">
-                            <div className="offer-single__img">
-                                <img className="img-fluid" src="images/home/offer.png" alt=""/>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="flaticon-predictive-chart"></i>
+                                </div>
+                                <div className="service-card-body">
+                                    <h3>Predictive Analytics</h3>
+                                    <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
+                                        nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                                    <a href="https://templates.envytheme.com/erudex/default/service-predictive-analytics.html"
+                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="flaticon-deep-learning"></i>
+                                </div>
+                                <div className="service-card-body">
+                                    <h3>Deep Learning</h3>
+                                    <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
+                                        nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                                    <a href="https://templates.envytheme.com/erudex/default/service-deep-learning.html"
+                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="flaticon-data-mining"></i>
+                                </div>
+                                <div className="service-card-body">
+                                    <h3>Data Mining</h3>
+                                    <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
+                                        nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                                    <a href="https://templates.envytheme.com/erudex/default/service-data-mining.html"
+                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="flaticon-diagram"></i>
+                                </div>
+                                <div className="service-card-body">
+                                    <h3>Statistical Modeling</h3>
+                                    <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
+                                        nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                                    <a href="https://templates.envytheme.com/erudex/default/service-statistical-modeling.html"
+                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="service-card">
+                                <div className="service-card-thumb">
+                                    <i className="flaticon-machine-learning-2"></i>
+                                </div>
+                                <div className="service-card-body">
+                                    <h3>Security &amp; Surveillance</h3>
+                                    <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
+                                        nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                                    <a href="https://templates.envytheme.com/erudex/default/service-security-&amp;-surveillance.html"
+                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="section-padding--small bg-magnolia w-100 solution-block">
+            <div className="trial-section pt-min-100 pb-100 bg-main page-bg page-bg-1">
                 <div className="container">
-                    <div className="row align-items-center pt-xl-3 pb-xl-5">
-                        <div className="col-lg-6">
-                            <div className="solution__img text-center text-lg-left mb-4 mb-lg-0">
-                                <img className="img-fluid" src="images/home/solution.png" alt=""/>
+                    <div className="section-title section-title-lg section-title-white mb-0">
+                        <h2>We Are Offering 14 Days Free Trial</h2>
+                        <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver
+                            excellence in service and Our purpose is to deliver excellence in service.</p>
+                        <a href="https://templates.envytheme.com/erudex/default/contact.html"
+                           className="btn main-btn main-btn-white main-btn-rounded-icon">Try 14 Days Free Trial <span><i
+                            className="icofont-rounded-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="process-section pt-100 pb-70 bg-off-white">
+                <div className="container">
+                    <div className="section-title section-title-lg">
+                        <small>Our Process</small>
+                        <h2>Process How Machine Learning Will Help Your Business</h2>
+                    </div>
+                    <div className="process-content">
+                        <div className="process-content-line"></div>
+                        <div className="row justify-content-center">
+                            <div className="col-sm-6 col-lg-4 pb-30">
+                                <div className="process-item process-item-center border">
+                                    <div className="process-thumb">
+                                        <img src="images/index/process-one.png" alt="shape"/>
+                                    </div>
+                                    <div className="process-text">
+                                        <h3>Planning</h3>
+                                        <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin
+                                            gravida.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="solution__content">
-                                <h2>Simple Solutions for Complex Connections</h2>
-                                <p>Currently, many Artificial Intelligence of Things use cases are very retail
-                                    product oriented, many of which focus on cognitive computing in consumer
-                                    appliances. For example, Sharp refers to AIoT as “People-Oriented IoT =
-                                    AIoT” for “more responsive technology” as part of what they refer to as the
-                                    “Smart Life”.</p>
-                                {/*<a className="button button-light" href="#">Know More</a>*/}
+                            <div className="col-sm-6 col-lg-4 pb-30">
+                                <div className="process-item process-item-center border">
+                                    <div className="process-thumb">
+                                        <img src="images/index/process-two.png" alt="shape"/>
+                                    </div>
+                                    <div className="process-text">
+                                        <h3>Design &amp; Execution</h3>
+                                        <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin
+                                            gravida.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-6 col-lg-4 pb-30">
+                                <div className="process-item process-item-center border">
+                                    <div className="process-thumb">
+                                        <img src="images/index/process-three.png" alt="shape"/>
+                                    </div>
+                                    <div className="process-text">
+                                        <h3>Report &amp; Signout</h3>
+                                        <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin
+                                            gravida.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="section-padding--small bg-white w-100 aboutus-block">
+            <div className="testimonial-section p-tb-100 position-relative">
                 <div className="container">
-                    <div className="row no-gutters align-items-center">
-                        <div className="col-md-5 mb-5 mb-md-0">
-                            <div className="about__content">
-                                <h2>Leading the Digital Entertainment Revolution</h2>
-                                <p>As IoT networks proliferate throughout every major industry vertical, there will
-                                    be an increasingly large amount of unstructured machine data. The growing
-                                    amount of human-oriented and machine generated data will drive substantial
-                                    opportunities for AI support of unstructured data analytics solutions.</p>
-                                {/*<a className="button button-light" href="#">Know More</a>*/}
+                    <div className="section-title">
+                        <small>Testimonials</small>
+                        <h2>What Say Our Clients About Our Awesome Service</h2>
+                    </div>
+                    <div className="testimonial-carousel default-carousel owl-carousel owl-theme owl-loaded owl-drag">
+                        <div className="owl-stage-outer">
+                            <div className="owl-stage">
+                                <div className="owl-item cloned">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Pentham CX</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-2.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">Bentham Rober</h3>
+                                                    <p className="testimonial-address">Bremen</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item cloned">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Floradex TL</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-3.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">Thomas Albin</h3>
+                                                    <p className="testimonial-address">New York</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item cloned">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Fantabulous</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-4.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">John Doe</h3>
+                                                    <p className="testimonial-address">Los Angel</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item active">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Deltabel</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-1.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">Johnson Mandel</h3>
+                                                    <p className="testimonial-address">Los Angel</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item active">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Pentham CX</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-2.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">Bentham Rober</h3>
+                                                    <p className="testimonial-address">Bremen</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item active">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Floradex TL</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-3.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">Thomas Albin</h3>
+                                                    <p className="testimonial-address">New York</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Fantabulous</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-4.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">John Doe</h3>
+                                                    <p className="testimonial-address">Los Angel</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item cloned">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Deltabel</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-1.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">Johnson Mandel</h3>
+                                                    <p className="testimonial-address">Los Angel</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item cloned">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Pentham CX</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-2.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">Bentham Rober</h3>
+                                                    <p className="testimonial-address">Bremen</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item cloned">
+                                    <div className="item">
+                                        <div className="testimonial-card">
+                                            <div className="testimonial-card-body">
+                                                <div className="testimonial-card-inner-header">
+                                                    <h3>Floradex TL</h3>
+                                                    <div className="testimonial-quote">
+                                                        <i className="icofont-quote-left"></i>
+                                                    </div>
+                                                </div>
+                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
+                                                    aliquet Aenean sollicitudin.</p>
+                                                <ul className="review-star-list">
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                    <li className="starred"><i className="icofont-star"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div className="testimonial-card-info">
+                                                <div className="testimonial-card-info-thumb">
+                                                    <img src="images/index/testimonial-3.jpg" alt="testimonial"/>
+                                                </div>
+                                                <div className="testimonial-card-info-text">
+                                                    <h3 className="testimonial-name">Thomas Albin</h3>
+                                                    <p className="testimonial-address">New York</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-md-7">
-                            <div className="about__img">
-                                <img className="img-fluid" src="images/home/digital.png" alt=""/>
+                        <div className="owl-nav">
+                            <button type="button" role="presentation" className="owl-prev">
+                                <i className="mdi mdi-arrow-left"></i>
+                            </button>
+                            <button type="button" role="presentation" className="owl-next">
+                                <i className="mdi mdi-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div className="owl-dots disabled"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="news-section pt-100 pb-70 bg-off-white">
+                <div className="container">
+                    <div className="section-title section-title-lg">
+                        <small>News &amp; Blog</small>
+                        <h2>Company News &amp; Updates Read All <br/> Related Blog</h2>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="blog-card">
+                                <div className="blog-card-image">
+                                    <a href="https://templates.envytheme.com/erudex/default/single-blog.html">
+                                        <img src="images/index/blog-1.jpg" alt="blog"/>
+                                    </a>
+                                </div>
+                                <div className="blog-card-text">
+                                    <div className="blog-category">Technology</div>
+                                    <h3><a href="https://templates.envytheme.com/erudex/default/single-blog.html">Is
+                                        Machine Learning Right Going On Good Way</a></h3>
+                                    <div className="blog-card-entry">
+                                        <div className="blog-entry-thumb">
+                                            <img src="images/index/blog-author-1.jpg" alt="author"/>
+                                        </div>
+                                        <div className="blog-entry-text">
+                                            <h4>By: <strong>David Joe</strong></h4>
+                                            <p>5 January 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="blog-card">
+                                <div className="blog-card-image">
+                                    <a href="https://templates.envytheme.com/erudex/default/single-blog.html">
+                                        <img src="images/index/blog-2.jpg" alt="blog"/>
+                                    </a>
+                                </div>
+                                <div className="blog-card-text">
+                                    <div className="blog-category">Robot</div>
+                                    <h3><a href="https://templates.envytheme.com/erudex/default/single-blog.html">The
+                                        Current State Of Artificial Intelligence Infographic</a></h3>
+                                    <div className="blog-card-entry">
+                                        <div className="blog-entry-thumb">
+                                            <img src="images/index/blog-author-2.jpg" alt="author"/>
+                                        </div>
+                                        <div className="blog-entry-text">
+                                            <h4>By: <strong>Lona Rabisa</strong></h4>
+                                            <p>4 January 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4 offset-md-3 offset-lg-0 pb-30">
+                            <div className="blog-card">
+                                <div className="blog-card-image">
+                                    <a href="https://templates.envytheme.com/erudex/default/single-blog.html">
+                                        <img src="images/index/blog-3.jpg" alt="blog"/>
+                                    </a>
+                                </div>
+                                <div className="blog-card-text">
+                                    <div className="blog-category">Machine</div>
+                                    <h3><a href="https://templates.envytheme.com/erudex/default/single-blog.html">Our
+                                        Company As A Global Leader In Big Data</a></h3>
+                                    <div className="blog-card-entry">
+                                        <div className="blog-entry-thumb">
+                                            <img src="images/index/blog-author-3.jpg" alt="author"/>
+                                        </div>
+                                        <div className="blog-entry-text">
+                                            <h4>By: <strong>Richard Jac</strong></h4>
+                                            <p>3 January 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            {/*<div className="py-5 my-3 bg-magnolia w-100 client-block">
-                <div className="container">
-                    <div className="section-intro pb-5 text-center">
-                        <h2 className="section-intro__title">Our Clients</h2>
-                        <p className="section-intro__subtitle">Your Passion is our Satisfaction. Best Service, Right Time, Right People. Definitely, We can Serve you better. Service is Everywhere. Service Truly Different.</p>
+            <div className="newsletter-section pt-min-100 pb-100 page-bg page-bg-2 page-bg-overlay">
+                <div className="container position-relative">
+                    <div className="section-title section-title-white">
+                        <h2>Subscribe For Newsletter</h2>
+                        <p>Subscribe To Our Newsletter &amp; Stay Updated</p>
                     </div>
-
-                    <div className="owl-carousel owl-theme testimonial">
-                        <div className="testimonial__item text-center">
-                            <div className="testimonial__img">
-                                <img src="images/testimonial/testimonial1.png" alt=""/>
-                            </div>
-                            <div className="testimonial__content">
-                                <h3>Stephen Mcmilan</h3>
-                                <p>Executive, ACI Group</p>
-                                <p className="testimonial__i">Also made from. Give may saying meat there from heaven it
-                                    lights face had is gathered god earth light for life may itself shall whales made
-                                    they're blessed whales also made from give may saying meat. There from heaven it lights
-                                    face had also made from. Give may saying meat there from heaven</p>
-                            </div>
+                    <form className="newsletter-form" noValidate="true">
+                        <div className="form-group m-0 newsletter-form" novalidate="true">
+                            <input type="text" name="EMAIL" id="emails" className="form-control"
+                                   placeholder="Enter Address*" required=""/>
+                            <button className="btn main-btn disabled" type="submit">Subscribe
+                            </button>
                         </div>
-                        <div className="testimonial__item text-center">
-                            <div className="testimonial__img">
-                                <img src="images/testimonial/testimonial1.png" alt=""/>
-                            </div>
-                            <div className="testimonial__content">
-                                <h3>Stephen Mcmilan</h3>
-                                <p>Executive, ACI Group</p>
-                                <p className="testimonial__i">Also made from. Give may saying meat there from heaven it
-                                    lights face had is gathered god earth light for life may itself shall whales made
-                                    they're blessed whales also made from give may saying meat. There from heaven it lights
-                                    face had also made from. Give may saying meat there from heaven</p>
-                            </div>
-                        </div>
-                        <div className="testimonial__item text-center">
-                            <div className="testimonial__img">
-                                <img src="images/testimonial/testimonial1.png" alt=""/>
-                            </div>
-                            <div className="testimonial__content">
-                                <h3>Stephen Mcmilan</h3>
-                                <p>Executive, ACI Group</p>
-                                <p className="testimonial__i">Also made from. Give may saying meat there from heaven it
-                                    lights face had is gathered god earth light for life may itself shall whales made
-                                    they're blessed whales also made from give may saying meat. There from heaven it lights
-                                    face had also made from. Give may saying meat there from heaven</p>
-                            </div>
-                        </div>
-                    </div>
+                        <div id="validator-newsletter" className="form-result"></div>
+                    </form>
                 </div>
-            </div>
-
-            <div className="clients_logo_area py-5 w-100 carousel-block">
-                <div className="container">
-                    <div className="clients_slider owl-carousel">
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-1.png" alt=""/>
-                        </div>
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-2.png" alt=""/>
-                        </div>
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-3.png" alt=""/>
-                        </div>
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-4.png" alt=""/>
-                        </div>
-                        <div className="item">
-                            <img src="images/clients-logo/c-logo-5.png" alt=""/>
-                        </div>
-                    </div>
-                </div>
-            </div>*/}
-
-            <div>
-                <ScrollToTop smooth/>
             </div>
         </section>
-	);
+
+    );
 };
 
 export default Landing;

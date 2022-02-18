@@ -2,101 +2,170 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 const Footer = () => {
-	return (
-        <footer className="footer-area section-gap w-100">
-            <div className="container">
-                <div className="row">
-                    <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li>
-                                <Link to='/aboutus'>
-                                    About Us
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to='/t&c'>
-                                    Terms of Service
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to='/faq'>
-                                    FAQ
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                        <h4>Features</h4>
-                        <ul>
-                            <li>
-                                <Link to='/services'>
-                                    Services
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to='/contact'>
-                                    Contact Us
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to='/career'>
-                                    Career
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to='/investor'>
-                                    Investor Relations
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
-                        <h4>Download Apps</h4>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="images/play-store.svg" width={130} alt="Google Play Store"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/app-store.svg" width={130} alt="Google Play Store"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    {/*<div className="col-xl-4 col-md-8 mb-4 mb-xl-0 single-footer-widget">
-                        <h4>Newsletter</h4>
-                        <p>You can trust us. we only send promo offers,</p>
-                        <div className="form-wrap" id="mc_embed_signup">
-                            <form target="_blank"
-                                  action=""
-                                  method="get" className="form-inline">
-                                <input className="form-control" name="EMAIL" placeholder="Your Email Address"
-                                       required="" type="email"/>
-                                    <button className="click-btn btn btn-default">subscribe</button>
-
-                            </form>
-                        </div>
-                    </div>*/}
+    return (
+        <footer className="bg-off-white footer">
+            <div className="footer-shapes">
+                <div className="footer-shape">
+                    <img src="images/index/shape-1.png" alt="shape"/>
                 </div>
-                <div className="footer-bottom row align-items-center text-center text-lg-left">
-                    <p className="footer-text m-0 col-lg-8 col-md-12">
-                        Copyright &copy; 2021
-                        All rights reserved by <a href="#" target="_blank">Smarttrak</a>
-                    </p>
-                    <div className="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-                        <a href="https://www.facebook.com/SmarttrakSolarSystems/" target="_blank"><i className="mdi mdi-facebook"/></a>
-                        <a href="https://in.linkedin.com/company/smarttrak-solar-systems-private-limited" target="_blank"><i className="mdi mdi-linkedin"/></a>
-                        {/*<a href="#"><i className="mdi mdi-instagram"/></a>*/}
-                        <a href="https://www.youtube.com/watch?v=FIuYm_XX53w" target="_blank"><i className="mdi mdi-youtube"/></a>
+                <div className="footer-shape footer-round-shape">
+                    <img src="images/index/shape-2.png" alt="shape"/>
+                </div>
+            </div>
+
+            <div className="footer-upper pt-100 pb-80 position-relative">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6 col-lg-3">
+                            <div className="footer-content-item">
+                                <div className="footer-logo">
+                                    <a href="https://templates.envytheme.com/erudex/default/index.html">
+                                        <img src="images/index/logo.png" alt="logo"/></a>
+                                </div>
+                                <div className="footer-details">
+                                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                                        sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                                    <ul className="social-list social-list-btn">
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank"><i
+                                                className="icofont-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/" target="_blank"><i
+                                                className="icofont-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/" target="_blank"><i
+                                                className="icofont-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.pinterest.com/" target="_blank"><i
+                                                className="icofont-pinterest"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-md-6 col-lg-3">
+                            <div className="footer-content-list footer-content-item desk-pad-left-70">
+                                <div className="footer-content-title">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul className="footer-details footer-list">
+                                    <li><a href="https://templates.envytheme.com/erudex/default/about-us.html">About
+                                        Us</a></li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/blogs-without-right-sidebar.html">News &amp; Blogs</a>
+                                    </li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/services.html">Services</a>
+                                    </li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/products.html">Products</a>
+                                    </li>
+                                    <li><a href="https://templates.envytheme.com/erudex/default/pricing.html">Our
+                                        Pricing</a></li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-md-6 col-lg-3">
+                            <div className="footer-content-list footer-content-item desk-pad-left-70">
+                                <div className="footer-content-title">
+                                    <h3>Services</h3>
+                                </div>
+                                <ul className="footer-details footer-list">
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html">Robotic
+                                        Automation</a></li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/service-predictive-analytics.html">Predictive
+                                        Analytic</a></li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/service-deep-learning.html">Deep
+                                        Learning</a></li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/service-statistical-modeling.html">Statistic
+                                        Modeling</a></li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/service-data-mining.html">Data
+                                        Mining</a></li>
+                                    <li><a
+                                        href="https://templates.envytheme.com/erudex/default/service-security-&amp;-surveillance.html">Security &amp; Surveillance</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 col-md-6 col-lg-3">
+                            <div className="footer-content-list footer-content-item desk-pad-left-70">
+                                <div className="footer-content-title">
+                                    <h3>Contact</h3>
+                                </div>
+                                <div className="footer-details footer-address">
+                                    <div className="footer-address-item">
+                                        <div className="footer-address-text">
+                                            <h4>Phone:</h4>
+                                            <p><a href="tel:001-987-654-432">(+1) 987 654 432</a></p>
+                                        </div>
+                                    </div>
+                                    <div className="footer-address-item">
+                                        <div className="footer-address-text">
+                                            <h4>Email:</h4>
+                                            <p><a href="mailto:info@erudex.com">info@erudex.com</a></p>
+                                        </div>
+                                    </div>
+                                    <div className="footer-address-item">
+                                        <div className="footer-address-text">
+                                            <h4>Address:</h4>
+                                            <p>214, Queens 4th cross, NY</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div className="footer-lower bg-blue position-relative">
+                <div className="container">
+                    <div className="footer-copyright-text footer-copyright-text-white">
+                        <p>Copyright ©2021 Erudex. Designed &amp; Developed By <a href="https://envytheme.com/"
+                                                                                  target="_blank">EnvyTheme</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="scroll-top scrolltopactive" id="scrolltop">
+                <div className="scroll-top-inner">
+                    <i className="mdi mdi-arrow-up"></i>
+                </div>
+            </div>
+
+            <div className="search-overlay">
+                <div className="search-close">
+                    <i className="mdi mdi-close"></i>
+                </div>
+                <div className="search-form-area">
+                    <div className="search-area-logo">
+                        <a href="https://templates.envytheme.com/erudex/default/index.html">
+                            <img src="images/index/logo-white.png" alt="logo"/>
+                        </a>
+                    </div>
+                    <form>
+                        <div className="form-group search-form-group">
+                            <input type="text" placeholder="Search..." className="form-control" autoFocus="autofocus"/>
+                            <button>
+                                <i className="mdi mdi-magnify"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </footer>
-	);
+    );
 };
 
 export default Footer;
