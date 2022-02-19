@@ -8,7 +8,4 @@ npm install
 
 npm start to run http://localhost:3000/
 
-![Smarttrak-AIOT](https://user-images.githubusercontent.com/88642733/129831877-fd0e9a3c-2b29-4d30-9d64-9de52a2c5ebe.png)
-
-
-
+![Smarttrak-AI](https://user-images.githubusercontent.com/88642733/154787588-4535b990-9d7f-47af-9e13-e76076a9dfe5.png)
