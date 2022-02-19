@@ -19,8 +19,8 @@ const Footer = () => {
                         <div className="col-sm-12 col-md-6 col-lg-3">
                             <div className="footer-content-item">
                                 <div className="footer-logo">
-                                    <a href="https://templates.envytheme.com/erudex/default/index.html">
-                                        <img src="images/index/logo.png" alt="logo" className="logo logo-image"/></a>
+                                    <Link to="/" onClick={() => {window.location.href="/"}}>
+                                        <img src="images/index/logo.png" alt="logo" className="logo logo-image"/></Link>
                                 </div>
                                 <div className="footer-details">
                                     <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
@@ -112,7 +112,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="search-overlay">
+            {/*<div className="search-overlay">
                 <div className="search-close">
                     <i className="mdi mdi-close"></i>
                 </div>
@@ -131,7 +131,7 @@ const Footer = () => {
                         </div>
                     </form>
                 </div>
-            </div>
+            </div>*/}
         </footer>
     );
 };

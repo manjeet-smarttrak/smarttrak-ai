@@ -7,7 +7,7 @@ const navbar = () => {
             <div className="navbar-area sticky-black is-sticky">
                 <div className="container-fluid">
                     <div className="mobile-nav">
-                        <Link to="/" className="mobile-brand">
+                        <Link to="/" onClick={() => {window.location.href="/"}} className="mobile-brand">
                             <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
                         </Link>
                         <div className="navbar-option">
@@ -21,11 +21,11 @@ const navbar = () => {
                                     <i className="mdi mdi-apps"></i>
                                 </button>
                             </div>
-                            <div className="navbar-option-item">
+                            {/*<div className="navbar-option-item">
                                 <button type="button" className="search-option">
                                     <i className="mdi mdi-magnify"></i>
                                 </button>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>
@@ -33,13 +33,14 @@ const navbar = () => {
                     <div className="container-fluid">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link className="navbar-brand"
-                               to="/">
+                               to="/" onClick={() => {window.location.href="/"}}>
                                 <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
                             </Link>
                             <div className="collapse navbar-collapse mean-menu d-block" id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item">
                                         <Link to="/"
+                                              onClick={() => {window.location.href="/"}}
                                            className="nav-link active">Home</Link>
                                     </li>
                                     <li className="nav-item">
@@ -70,9 +71,9 @@ const navbar = () => {
                                         <Link to="/contact"
                                            className="nav-link">Contact</Link>
                                     </li>
-                                    <li className="nav-item search-option">
+                                    {/*<li className="nav-item search-option">
                                         <i className="mdi mdi-magnify"></i>
-                                    </li>
+                                    </li>*/}
                                 </ul>
                             </div>
                         </nav>
