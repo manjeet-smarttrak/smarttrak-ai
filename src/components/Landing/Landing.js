@@ -1,35 +1,94 @@
 import React from "react";
-import ScrollToTop from "react-scroll-to-top";
-import {Link} from "react-router-dom";
 
 const Landing = () => {
     return (
         <section>
-            <div className="header header-bg-lg header-bg-shape border-bottom-1">
-                <div className="container-fluid p-lg-0">
-                    <div className="row m-lg-0">
-                        <div className="col-lg-6 p-lg-0">
-                            <div className="max-585 ms-auto">
-                                <div className="header-content">
-                                    <h1>Best Machine Learning Product Creator</h1>
-                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                                        bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh</p>
-                                    <div className="button-group button-group-animated">
-                                        <a href="https://templates.envytheme.com/erudex/default/contact.html"
-                                           className="btn main-btn">Get Started</a>
-                                        <a href="https://templates.envytheme.com/erudex/default/contact.html"
-                                           className="btn main-btn main-btn-white">Start A Free Trial</a>
+            <div className="testimonial-section p-tb-100 position-relative">
+                <div className="container-fluid">
+                    <div className="banner-carousel default-carousel owl-carousel owl-theme owl-loaded owl-drag">
+                        <div className="owl-stage-outer">
+                            <div className="owl-stage">
+                                <div className="owl-item cloned">
+                                    <div className="item">
+                                        <div className="header header-bg-shape border-bottom-1">
+                                            <div className="container p-lg-0">
+                                                <div className="row m-lg-0">
+                                                    <div className="col-lg-6 p-lg-0">
+                                                        <div className="max-585 ms-auto">
+                                                            <div className="header-content">
+                                                                <h1>Best Machine Learning Product Creator</h1>
+                                                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                                                                    bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh</p>
+                                                                <div className="button-group button-group-animated">
+                                                                    <a href="https://templates.envytheme.com/erudex/default/contact.html"
+                                                                       className="btn main-btn">Get Started</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="header-image-shape">
+                                                <img src="images/index/header-shape.png" alt="shape"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item cloned">
+                                    <div className="item">
+                                        <div className="header header-bg-shape border-bottom-1">
+                                            <div className="container p-lg-0">
+                                                <div className="row m-lg-0">
+                                                    <div className="col-lg-6 p-lg-0">
+                                                        <div className="max-585 ms-auto">
+                                                            <div className="header-content">
+                                                                <h1>Best Machine Learning Product Creator</h1>
+                                                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                                                                    bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh</p>
+                                                                <div className="button-group button-group-animated">
+                                                                    <a href="https://templates.envytheme.com/erudex/default/contact.html"
+                                                                       className="btn main-btn">Get Started</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="header-image-shape">
+                                                <img src="images/index/header-shape.png" alt="shape"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-item">
+                                    <div className="item">
+                                        <div className="header header-bg-shape border-bottom-1">
+                                            <div className="container p-lg-0">
+                                                <div className="row m-lg-0">
+                                                    <div className="col-lg-6 p-lg-0">
+                                                        <div className="max-585 ms-auto">
+                                                            <div className="header-content">
+                                                                <h1>Best Machine Learning Product Creator</h1>
+                                                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                                                                    bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh</p>
+                                                                <div className="button-group button-group-animated">
+                                                                    <a href="https://templates.envytheme.com/erudex/default/contact.html"
+                                                                       className="btn main-btn">Get Started</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="header-image-shape">
+                                                <img src="images/index/header-shape.png" alt="shape"/>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="header-image-shape">
-                    <img src="images/index/header-shape.png" alt="shape"/>
-                </div>
-                <div className="header-animation-shapes animation-d-none">
-                    <div className="header-animation-shape"></div>
                 </div>
             </div>
 
@@ -51,8 +110,7 @@ const Landing = () => {
                                     <div className="feature-card-body">
                                         <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
                                         <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                           className="redirect-link">Discover More <i
-                                            className="icofont-rounded-right"></i></a>
+                                           className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +125,7 @@ const Landing = () => {
                                     <div className="feature-card-body">
                                         <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
                                         <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                           className="redirect-link">Discover More <i
-                                            className="icofont-rounded-right"></i></a>
+                                           className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -83,8 +140,7 @@ const Landing = () => {
                                     <div className="feature-card-body">
                                         <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
                                         <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                           className="redirect-link">Discover More <i
-                                            className="icofont-rounded-right"></i></a>
+                                           className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -99,8 +155,7 @@ const Landing = () => {
                                     <div className="feature-card-body">
                                         <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
                                         <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                           className="redirect-link">Discover More <i
-                                            className="icofont-rounded-right"></i></a>
+                                           className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -242,19 +297,6 @@ const Landing = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="trial-section pt-min-100 pb-100 bg-main page-bg page-bg-1">
-                <div className="container">
-                    <div className="section-title section-title-lg section-title-white mb-0">
-                        <h2>We Are Offering 14 Days Free Trial</h2>
-                        <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver
-                            excellence in service and Our purpose is to deliver excellence in service.</p>
-                        <a href="https://templates.envytheme.com/erudex/default/contact.html"
-                           className="btn main-btn main-btn-white main-btn-rounded-icon">Try 14 Days Free Trial <span><i
-                            className="icofont-rounded-right"></i></span></a>
                     </div>
                 </div>
             </div>
@@ -660,104 +702,6 @@ const Landing = () => {
                         </div>
                         <div className="owl-dots disabled"></div>
                     </div>
-                </div>
-            </div>
-
-            <div className="news-section pt-100 pb-70 bg-off-white">
-                <div className="container">
-                    <div className="section-title section-title-lg">
-                        <small>News &amp; Blog</small>
-                        <h2>Company News &amp; Updates Read All <br/> Related Blog</h2>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6 col-lg-4 pb-30">
-                            <div className="blog-card">
-                                <div className="blog-card-image">
-                                    <a href="https://templates.envytheme.com/erudex/default/single-blog.html">
-                                        <img src="images/index/blog-1.jpg" alt="blog"/>
-                                    </a>
-                                </div>
-                                <div className="blog-card-text">
-                                    <div className="blog-category">Technology</div>
-                                    <h3><a href="https://templates.envytheme.com/erudex/default/single-blog.html">Is
-                                        Machine Learning Right Going On Good Way</a></h3>
-                                    <div className="blog-card-entry">
-                                        <div className="blog-entry-thumb">
-                                            <img src="images/index/blog-author-1.jpg" alt="author"/>
-                                        </div>
-                                        <div className="blog-entry-text">
-                                            <h4>By: <strong>David Joe</strong></h4>
-                                            <p>5 January 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-lg-4 pb-30">
-                            <div className="blog-card">
-                                <div className="blog-card-image">
-                                    <a href="https://templates.envytheme.com/erudex/default/single-blog.html">
-                                        <img src="images/index/blog-2.jpg" alt="blog"/>
-                                    </a>
-                                </div>
-                                <div className="blog-card-text">
-                                    <div className="blog-category">Robot</div>
-                                    <h3><a href="https://templates.envytheme.com/erudex/default/single-blog.html">The
-                                        Current State Of Artificial Intelligence Infographic</a></h3>
-                                    <div className="blog-card-entry">
-                                        <div className="blog-entry-thumb">
-                                            <img src="images/index/blog-author-2.jpg" alt="author"/>
-                                        </div>
-                                        <div className="blog-entry-text">
-                                            <h4>By: <strong>Lona Rabisa</strong></h4>
-                                            <p>4 January 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-lg-4 offset-md-3 offset-lg-0 pb-30">
-                            <div className="blog-card">
-                                <div className="blog-card-image">
-                                    <a href="https://templates.envytheme.com/erudex/default/single-blog.html">
-                                        <img src="images/index/blog-3.jpg" alt="blog"/>
-                                    </a>
-                                </div>
-                                <div className="blog-card-text">
-                                    <div className="blog-category">Machine</div>
-                                    <h3><a href="https://templates.envytheme.com/erudex/default/single-blog.html">Our
-                                        Company As A Global Leader In Big Data</a></h3>
-                                    <div className="blog-card-entry">
-                                        <div className="blog-entry-thumb">
-                                            <img src="images/index/blog-author-3.jpg" alt="author"/>
-                                        </div>
-                                        <div className="blog-entry-text">
-                                            <h4>By: <strong>Richard Jac</strong></h4>
-                                            <p>3 January 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="newsletter-section pt-min-100 pb-100 page-bg page-bg-2 page-bg-overlay">
-                <div className="container position-relative">
-                    <div className="section-title section-title-white">
-                        <h2>Subscribe For Newsletter</h2>
-                        <p>Subscribe To Our Newsletter &amp; Stay Updated</p>
-                    </div>
-                    <form className="newsletter-form" noValidate="true">
-                        <div className="form-group m-0 newsletter-form" novalidate="true">
-                            <input type="text" name="EMAIL" id="emails" className="form-control"
-                                   placeholder="Enter Address*" required=""/>
-                            <button className="btn main-btn disabled" type="submit">Subscribe
-                            </button>
-                        </div>
-                        <div id="validator-newsletter" className="form-result"></div>
-                    </form>
                 </div>
             </div>
         </section>

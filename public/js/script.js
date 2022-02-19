@@ -37,6 +37,29 @@ jQuery(function ($) {
         return false;
     });
 
+    // Banner-carousel
+    $(".banner-carousel").owlCarousel({
+        loop: true,
+        items: 1,
+        autoplay: true,
+        smartSpeed: 1500,
+        margin: 30,
+        dots: true,
+        nav: false,
+        navText: ['',''],
+        responsive:{
+            0: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
+
     // Testimonial-carousel
     $(".testimonial-carousel").owlCarousel({
         loop: true,

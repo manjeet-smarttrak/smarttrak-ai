@@ -20,27 +20,23 @@ const Footer = () => {
                             <div className="footer-content-item">
                                 <div className="footer-logo">
                                     <a href="https://templates.envytheme.com/erudex/default/index.html">
-                                        <img src="images/index/logo.png" alt="logo"/></a>
+                                        <img src="images/index/logo.png" alt="logo" className="logo logo-image"/></a>
                                 </div>
                                 <div className="footer-details">
                                     <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
                                         sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
                                     <ul className="social-list social-list-btn">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank"><i
-                                                className="icofont-facebook"></i></a>
+                                            <a href="https://www.facebook.com/" target="_blank"><i className="mdi mdi-facebook"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/" target="_blank"><i
-                                                className="icofont-twitter"></i></a>
+                                            <a href="https://twitter.com/" target="_blank"><i className="mdi mdi-twitter"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/" target="_blank"><i
-                                                className="icofont-instagram"></i></a>
+                                            <a href="https://www.instagram.com/" target="_blank"><i className="mdi mdi-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank"><i
-                                                className="icofont-pinterest"></i></a>
+                                            <a href="https://www.pinterest.com/" target="_blank"><i className="mdi mdi-pinterest"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -52,22 +48,8 @@ const Footer = () => {
                                     <h3>Useful Links</h3>
                                 </div>
                                 <ul className="footer-details footer-list">
-                                    <li><a href="https://templates.envytheme.com/erudex/default/about-us.html">About
-                                        Us</a></li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/blogs-without-right-sidebar.html">News &amp; Blogs</a>
-                                    </li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/services.html">Services</a>
-                                    </li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/products.html">Products</a>
-                                    </li>
-                                    <li><a href="https://templates.envytheme.com/erudex/default/pricing.html">Our
-                                        Pricing</a></li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/contact.html">Contact</a>
-                                    </li>
+                                    <li><a href="https://templates.envytheme.com/erudex/default/about-us.html">About Us</a></li>
+                                    <li><a href="https://templates.envytheme.com/erudex/default/contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -78,23 +60,15 @@ const Footer = () => {
                                 </div>
                                 <ul className="footer-details footer-list">
                                     <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html">Robotic
-                                        Automation</a></li>
+                                        href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html">FAQ's</a></li>
                                     <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-predictive-analytics.html">Predictive
-                                        Analytic</a></li>
+                                        href="https://templates.envytheme.com/erudex/default/service-predictive-analytics.html">Our Team</a></li>
                                     <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-deep-learning.html">Deep
-                                        Learning</a></li>
+                                        href="https://templates.envytheme.com/erudex/default/service-deep-learning.html">Testimonial</a></li>
                                     <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-statistical-modeling.html">Statistic
-                                        Modeling</a></li>
+                                        href="https://templates.envytheme.com/erudex/default/service-statistical-modeling.html">Careers</a></li>
                                     <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-data-mining.html">Data
-                                        Mining</a></li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-security-&amp;-surveillance.html">Security &amp; Surveillance</a>
-                                    </li>
+                                        href="https://templates.envytheme.com/erudex/default/service-data-mining.html">Products</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -107,19 +81,19 @@ const Footer = () => {
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Phone:</h4>
-                                            <p><a href="tel:001-987-654-432">(+1) 987 654 432</a></p>
+                                            <p><a href="tel:001-987-654-432">(+91) 987 654 432 1</a></p>
                                         </div>
                                     </div>
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Email:</h4>
-                                            <p><a href="mailto:info@erudex.com">info@erudex.com</a></p>
+                                            <p><a href="mailto:info@erudex.com">info@smarttrak.com</a></p>
                                         </div>
                                     </div>
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Address:</h4>
-                                            <p>214, Queens 4th cross, NY</p>
+                                            <p>214, Queens 4th cross, INDIA</p>
                                         </div>
                                     </div>
                                 </div>
@@ -132,8 +106,8 @@ const Footer = () => {
             <div className="footer-lower bg-blue position-relative">
                 <div className="container">
                     <div className="footer-copyright-text footer-copyright-text-white">
-                        <p>Copyright ©2021 Erudex. Designed &amp; Developed By <a href="https://envytheme.com/"
-                                                                                  target="_blank">EnvyTheme</a></p>
+                        <p>Copyright ©2021 Smarttrak. Designed &amp; Developed By <a href="#"
+                                                                                  target="_blank">Smarttrak</a></p>
                     </div>
                 </div>
             </div>
@@ -151,7 +125,7 @@ const Footer = () => {
                 <div className="search-form-area">
                     <div className="search-area-logo">
                         <a href="https://templates.envytheme.com/erudex/default/index.html">
-                            <img src="images/index/logo-white.png" alt="logo"/>
+                            <img src="images/index/logo-white.png" alt="logo" className="logo logo-image"/>
                         </a>
                     </div>
                     <form>

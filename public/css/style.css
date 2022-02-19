@@ -1482,8 +1482,8 @@ select.form-control {
 
 .main-nav nav .navbar-nav .nav-item a.dropdown-toggle:after {
   content: "\f107";
+  font-family: "Font Awesome 6 Free";
   border: 0;
-  font-family: "Font Awesome 5 Free";
   font-size: 10px;
   vertical-align: baseline;
   margin-left: 8px;
@@ -3425,11 +3425,13 @@ select.form-control {
           animation: wobble 5s ease-in-out alternate infinite;
 }
 
-.testimonial-carousel {
+.testimonial-carousel,
+.banner-carousel{
   margin-top: -30px;
 }
 
-.testimonial-carousel .owl-stage-outer {
+.testimonial-carousel .owl-stage-outer,
+.banner-carousel .owl-stage-outer {
   padding-top: 30px;
 }
 
@@ -6250,11 +6252,12 @@ select.form-control {
   color: #fff;
   font-size: 13px;
 }
-/*# sourceMappingURL=style.css.map */
-
 .owl-stage{
   transform: translate3d(-1326px, 0px, 0px); transition: all 0s ease 0s; width: 4420px;
 }
 .owl-stage .owl-item{
   width: 412px; margin-right: 30px;
+}
+.logo-image{
+  width: 150px;
 }
