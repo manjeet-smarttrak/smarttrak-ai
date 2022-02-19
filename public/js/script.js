@@ -44,7 +44,7 @@ jQuery(function ($) {
         autoplay: true,
         smartSpeed: 1500,
         margin: 30,
-        dots: true,
+        dots: false,
         nav: false,
         navText: ['',''],
         responsive:{

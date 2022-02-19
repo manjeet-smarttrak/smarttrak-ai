@@ -7,9 +7,9 @@ const navbar = () => {
             <div className="navbar-area sticky-black is-sticky">
                 <div className="container-fluid">
                     <div className="mobile-nav">
-                        <a href="https://templates.envytheme.com/erudex/default/index.html" className="mobile-brand">
+                        <Link to="/" className="mobile-brand">
                             <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
-                        </a>
+                        </Link>
                         <div className="navbar-option">
                             <div className="navbar-option-item">
                                 <button type="button">
@@ -32,49 +32,43 @@ const navbar = () => {
                 <div className="main-nav">
                     <div className="container-fluid">
                         <nav className="navbar navbar-expand-md navbar-light">
-                            <a className="navbar-brand"
-                               href="https://templates.envytheme.com/erudex/default/index.html">
+                            <Link className="navbar-brand"
+                               to="/">
                                 <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
-                            </a>
+                            </Link>
                             <div className="collapse navbar-collapse mean-menu d-block" id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item">
-                                        <a href="https://templates.envytheme.com/erudex/default/index.html#"
-                                           className="nav-link active">Home</a>
+                                        <Link to="/"
+                                           className="nav-link active">Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="https://templates.envytheme.com/erudex/default/about-us.html"
-                                           className="nav-link">About Us</a>
+                                        <Link to="/aboutus" className="nav-link">About Us</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="https://templates.envytheme.com/erudex/default/index.html#"
-                                           className="nav-link dropdown-toggle">Services</a>
+                                        <a className="nav-link dropdown-toggle">Services</a>
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <a href="https://templates.envytheme.com/erudex/default/faqs.html"
-                                                   className="nav-link">FAQ's</a>
+                                                <Link to="/faq"
+                                                   className="nav-link">FAQ's</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="https://templates.envytheme.com/erudex/default/our-team.html"
-                                                   className="nav-link">Our Team</a>
+                                                <Link to="/our-team"
+                                                   className="nav-link">Our Team</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="https://templates.envytheme.com/erudex/default/testimonial.html"
-                                                   className="nav-link">Testimonial</a>
+                                                <Link to="/career"
+                                                   className="nav-link">Careers</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="https://templates.envytheme.com/erudex/default/careers.html"
-                                                   className="nav-link">Careers</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a href="https://templates.envytheme.com/erudex/default/index.html#"
-                                                   className="nav-link">Products</a>
+                                                <Link to="/product"
+                                                   className="nav-link">Products</Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="https://templates.envytheme.com/erudex/default/contact.html"
-                                           className="nav-link">Contact</a>
+                                        <Link to="/contact"
+                                           className="nav-link">Contact</Link>
                                     </li>
                                     <li className="nav-item search-option">
                                         <i className="mdi mdi-magnify"></i>

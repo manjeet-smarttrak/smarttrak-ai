@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Landing = () => {
     return (
@@ -6,11 +7,11 @@ const Landing = () => {
             <div className="testimonial-section p-tb-100 position-relative">
                 <div className="container-fluid">
                     <div className="banner-carousel default-carousel owl-carousel owl-theme owl-loaded owl-drag">
-                        <div className="owl-stage-outer">
+                        <div className="owl-stage-outer pb-5">
                             <div className="owl-stage">
                                 <div className="owl-item cloned">
                                     <div className="item">
-                                        <div className="header header-bg-shape border-bottom-1">
+                                        <div className="header header-bg-shape">
                                             <div className="container p-lg-0">
                                                 <div className="row m-lg-0">
                                                     <div className="col-lg-6 p-lg-0">
@@ -36,7 +37,7 @@ const Landing = () => {
                                 </div>
                                 <div className="owl-item cloned">
                                     <div className="item">
-                                        <div className="header header-bg-shape border-bottom-1">
+                                        <div className="header header-bg-shape">
                                             <div className="container p-lg-0">
                                                 <div className="row m-lg-0">
                                                     <div className="col-lg-6 p-lg-0">
@@ -62,7 +63,7 @@ const Landing = () => {
                                 </div>
                                 <div className="owl-item">
                                     <div className="item">
-                                        <div className="header header-bg-shape border-bottom-1">
+                                        <div className="header header-bg-shape">
                                             <div className="container p-lg-0">
                                                 <div className="row m-lg-0">
                                                     <div className="col-lg-6 p-lg-0">
@@ -103,14 +104,14 @@ const Landing = () => {
                                 <div className="feature-card">
                                     <div className="feature-card-header">
                                         <div className="feature-card-thumb feature-card-thumb-green">
-                                            <i className="fa-solid fa-chalkboard-user"></i>
+                                            <i className="mdi mdi-account-tie"></i>
                                         </div>
                                         <span>ML Technology</span>
                                     </div>
                                     <div className="feature-card-body">
                                         <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
                                         <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                           className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                           className="redirect-link">Discover More</a>
                                     </div>
                                 </div>
                             </div>
@@ -118,14 +119,14 @@ const Landing = () => {
                                 <div className="feature-card">
                                     <div className="feature-card-header">
                                         <div className="feature-card-thumb feature-card-thumb-yellow">
-                                            <i className="flaticon-voice-recognition"></i>
+                                            <i className="mdi mdi-account-key"></i>
                                         </div>
                                         <span>ADI Technology</span>
                                     </div>
                                     <div className="feature-card-body">
                                         <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
                                         <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                           className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                           className="redirect-link">Discover More</a>
                                     </div>
                                 </div>
                             </div>
@@ -133,14 +134,14 @@ const Landing = () => {
                                 <div className="feature-card">
                                     <div className="feature-card-header">
                                         <div className="feature-card-thumb feature-card-thumb-blue">
-                                            <i className="flaticon-machine-learning"></i>
+                                            <i className="mdi mdi-account-network"></i>
                                         </div>
                                         <span>Data Tech</span>
                                     </div>
                                     <div className="feature-card-body">
                                         <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
                                         <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                           className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                           className="redirect-link">Discover More</a>
                                     </div>
                                 </div>
                             </div>
@@ -148,14 +149,14 @@ const Landing = () => {
                                 <div className="feature-card">
                                     <div className="feature-card-header">
                                         <div className="feature-card-thumb feature-card-thumb-violet">
-                                            <i className="flaticon-processor"></i>
+                                            <i className="mdi mdi-account-convert"></i>
                                         </div>
                                         <span>AI Technology</span>
                                     </div>
                                     <div className="feature-card-body">
                                         <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin.</p>
                                         <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                           className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                           className="redirect-link">Discover More</a>
                                     </div>
                                 </div>
                             </div>
@@ -216,84 +217,84 @@ const Landing = () => {
                         <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
-                                    <i className="flaticon-automation"></i>
+                                    <i className="mdi mdi-robot-industrial"></i>
                                 </div>
                                 <div className="service-card-body">
                                     <h3>Robotic Automation</h3>
                                     <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
                                         nibh vel velit auctor aliquet Aenean sollicitudin.</p>
                                     <a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html"
-                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                       className="redirect-link">Discover More <i className="mdi mdi-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
-                                    <i className="flaticon-predictive-chart"></i>
+                                    <i className="mdi mdi-home-analytics"></i>
                                 </div>
                                 <div className="service-card-body">
                                     <h3>Predictive Analytics</h3>
                                     <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
                                         nibh vel velit auctor aliquet Aenean sollicitudin.</p>
                                     <a href="https://templates.envytheme.com/erudex/default/service-predictive-analytics.html"
-                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                       className="redirect-link">Discover More <i className="mdi mdi-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
-                                    <i className="flaticon-deep-learning"></i>
+                                    <i className="mdi mdi-school-outline"></i>
                                 </div>
                                 <div className="service-card-body">
                                     <h3>Deep Learning</h3>
                                     <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
                                         nibh vel velit auctor aliquet Aenean sollicitudin.</p>
                                     <a href="https://templates.envytheme.com/erudex/default/service-deep-learning.html"
-                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                       className="redirect-link">Discover More <i className="mdi mdi-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
-                                    <i className="flaticon-data-mining"></i>
+                                    <i className="mdi mdi-cable-data"></i>
                                 </div>
                                 <div className="service-card-body">
                                     <h3>Data Mining</h3>
                                     <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
                                         nibh vel velit auctor aliquet Aenean sollicitudin.</p>
                                     <a href="https://templates.envytheme.com/erudex/default/service-data-mining.html"
-                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                       className="redirect-link">Discover More <i className="mdi mdi-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
-                                    <i className="flaticon-diagram"></i>
+                                    <i className="mdi mdi-artstation"></i>
                                 </div>
                                 <div className="service-card-body">
                                     <h3>Statistical Modeling</h3>
                                     <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
                                         nibh vel velit auctor aliquet Aenean sollicitudin.</p>
                                     <a href="https://templates.envytheme.com/erudex/default/service-statistical-modeling.html"
-                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                       className="redirect-link">Discover More <i className="mdi mdi-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
-                                    <i className="flaticon-machine-learning-2"></i>
+                                    <i className="mdi mdi-server-security"></i>
                                 </div>
                                 <div className="service-card-body">
                                     <h3>Security &amp; Surveillance</h3>
                                     <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida
                                         nibh vel velit auctor aliquet Aenean sollicitudin.</p>
                                     <a href="https://templates.envytheme.com/erudex/default/service-security-&amp;-surveillance.html"
-                                       className="redirect-link">Discover More <i className="icofont-rounded-right"></i></a>
+                                       className="redirect-link">Discover More <i className="mdi mdi-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -347,360 +348,6 @@ const Landing = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="testimonial-section p-tb-100 position-relative">
-                <div className="container">
-                    <div className="section-title">
-                        <small>Testimonials</small>
-                        <h2>What Say Our Clients About Our Awesome Service</h2>
-                    </div>
-                    <div className="testimonial-carousel default-carousel owl-carousel owl-theme owl-loaded owl-drag">
-                        <div className="owl-stage-outer">
-                            <div className="owl-stage">
-                                <div className="owl-item cloned">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Pentham CX</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-2.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">Bentham Rober</h3>
-                                                    <p className="testimonial-address">Bremen</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item cloned">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Floradex TL</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-3.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">Thomas Albin</h3>
-                                                    <p className="testimonial-address">New York</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item cloned">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Fantabulous</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-4.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">John Doe</h3>
-                                                    <p className="testimonial-address">Los Angel</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item active">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Deltabel</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-1.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">Johnson Mandel</h3>
-                                                    <p className="testimonial-address">Los Angel</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item active">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Pentham CX</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-2.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">Bentham Rober</h3>
-                                                    <p className="testimonial-address">Bremen</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item active">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Floradex TL</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-3.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">Thomas Albin</h3>
-                                                    <p className="testimonial-address">New York</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Fantabulous</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-4.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">John Doe</h3>
-                                                    <p className="testimonial-address">Los Angel</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item cloned">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Deltabel</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-1.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">Johnson Mandel</h3>
-                                                    <p className="testimonial-address">Los Angel</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item cloned">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Pentham CX</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-2.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">Bentham Rober</h3>
-                                                    <p className="testimonial-address">Bremen</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="owl-item cloned">
-                                    <div className="item">
-                                        <div className="testimonial-card">
-                                            <div className="testimonial-card-body">
-                                                <div className="testimonial-card-inner-header">
-                                                    <h3>Floradex TL</h3>
-                                                    <div className="testimonial-quote">
-                                                        <i className="icofont-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                                <p className="testimonial-para">Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor
-                                                    aliquet Aenean sollicitudin.</p>
-                                                <ul className="review-star-list">
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                    <li className="starred"><i className="icofont-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <div className="testimonial-card-info">
-                                                <div className="testimonial-card-info-thumb">
-                                                    <img src="images/index/testimonial-3.jpg" alt="testimonial"/>
-                                                </div>
-                                                <div className="testimonial-card-info-text">
-                                                    <h3 className="testimonial-name">Thomas Albin</h3>
-                                                    <p className="testimonial-address">New York</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="owl-nav">
-                            <button type="button" role="presentation" className="owl-prev">
-                                <i className="mdi mdi-arrow-left"></i>
-                            </button>
-                            <button type="button" role="presentation" className="owl-next">
-                                <i className="mdi mdi-arrow-right"></i>
-                            </button>
-                        </div>
-                        <div className="owl-dots disabled"></div>
                     </div>
                 </div>
             </div>

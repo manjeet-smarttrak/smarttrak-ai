@@ -59,16 +59,10 @@ const Footer = () => {
                                     <h3>Services</h3>
                                 </div>
                                 <ul className="footer-details footer-list">
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html">FAQ's</a></li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-predictive-analytics.html">Our Team</a></li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-deep-learning.html">Testimonial</a></li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-statistical-modeling.html">Careers</a></li>
-                                    <li><a
-                                        href="https://templates.envytheme.com/erudex/default/service-data-mining.html">Products</a></li>
+                                    <li><a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html">FAQ's</a></li>
+                                    <li><a href="https://templates.envytheme.com/erudex/default/service-predictive-analytics.html">Our Team</a></li>
+                                    <li><a href="https://templates.envytheme.com/erudex/default/service-statistical-modeling.html">Careers</a></li>
+                                    <li><a href="https://templates.envytheme.com/erudex/default/service-data-mining.html">Products</a></li>
                                 </ul>
                             </div>
                         </div>
