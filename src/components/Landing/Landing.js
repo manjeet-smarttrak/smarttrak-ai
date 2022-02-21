@@ -56,7 +56,7 @@ const Landing = () => {
                                                 </div>
                                             </div>
                                             <div className="header-image-shape">
-                                                <img src="images/index/header-shape.png" alt="shape"/>
+                                                <img src="images/index/about-ai.png" alt="shape"/>
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@ const Landing = () => {
                                                 </div>
                                             </div>
                                             <div className="header-image-shape">
-                                                <img src="images/index/header-shape.png" alt="shape"/>
+                                                <img src="images/index/AI.png" alt="shape"/>
                                             </div>
                                         </div>
                                     </div>
