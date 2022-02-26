@@ -21,11 +21,6 @@ const navbar = () => {
                                     <i className="mdi mdi-apps"></i>
                                 </button>
                             </div>
-                            {/*<div className="navbar-option-item">
-                                <button type="button" className="search-option">
-                                    <i className="mdi mdi-magnify"></i>
-                                </button>
-                            </div>*/}
                         </div>
                     </div>
                 </div>
@@ -47,33 +42,17 @@ const navbar = () => {
                                         <Link to="/aboutus" className="nav-link">About Us</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link dropdown-toggle">Services</a>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link to="/faq"
-                                                   className="nav-link">FAQ's</Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link to="/our-team"
-                                                   className="nav-link">Our Team</Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link to="/career"
-                                                   className="nav-link">Careers</Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link to="/product"
-                                                   className="nav-link">Products</Link>
-                                            </li>
-                                        </ul>
+                                        <Link to="/services"
+                                              className="nav-link">Services</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/career"
+                                              className="nav-link">Career</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/contact"
-                                           className="nav-link">Contact</Link>
+                                           className="nav-link">Contact Us</Link>
                                     </li>
-                                    {/*<li className="nav-item search-option">
-                                        <i className="mdi mdi-magnify"></i>
-                                    </li>*/}
                                 </ul>
                             </div>
                         </nav>

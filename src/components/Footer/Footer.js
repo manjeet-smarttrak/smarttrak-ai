@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="footer-upper pt-100 pb-80 position-relative">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 col-md-6 col-lg-3">
+                        <div className="col-sm-12 col-md-6 col-lg-4">
                             <div className="footer-content-item">
                                 <div className="footer-logo">
                                     <Link to="/" onClick={() => {window.location.href="/"}}>
@@ -30,43 +30,37 @@ const Footer = () => {
                                             <a href="https://www.facebook.com/" target="_blank"><i className="mdi mdi-facebook"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/" target="_blank"><i className="mdi mdi-twitter"></i></a>
-                                        </li>
-                                        <li>
                                             <a href="https://www.instagram.com/" target="_blank"><i className="mdi mdi-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank"><i className="mdi mdi-pinterest"></i></a>
+                                            <a href="https://www.youtube.com/" target="_blank"><i className="mdi mdi-youtube"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-3">
+                        <div className="col-sm-6 col-md-6 col-lg-4">
                             <div className="footer-content-list footer-content-item desk-pad-left-70">
                                 <div className="footer-content-title">
                                     <h3>Useful Links</h3>
                                 </div>
                                 <ul className="footer-details footer-list">
-                                    <li><a href="https://templates.envytheme.com/erudex/default/about-us.html">About Us</a></li>
-                                    <li><a href="https://templates.envytheme.com/erudex/default/contact.html">Contact</a></li>
+                                    <li>
+                                        <a><Link to="/aboutus">About Us</Link></a>
+                                    </li>
+                                    <li>
+                                        <a><Link to="/career">Career</Link></a>
+                                    </li>
+                                    <li>
+                                        <a><Link to="/service">Services</Link></a>
+                                    </li>
+                                    <li>
+                                        <a><Link to="/contact">Contact Us</Link></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-3">
-                            <div className="footer-content-list footer-content-item desk-pad-left-70">
-                                <div className="footer-content-title">
-                                    <h3>Services</h3>
-                                </div>
-                                <ul className="footer-details footer-list">
-                                    <li><a href="https://templates.envytheme.com/erudex/default/service-robotic-animation.html">FAQ's</a></li>
-                                    <li><a href="https://templates.envytheme.com/erudex/default/service-predictive-analytics.html">Our Team</a></li>
-                                    <li><a href="https://templates.envytheme.com/erudex/default/service-statistical-modeling.html">Careers</a></li>
-                                    <li><a href="https://templates.envytheme.com/erudex/default/service-data-mining.html">Products</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-3">
+                        <div className="col-sm-6 col-md-6 col-lg-4">
                             <div className="footer-content-list footer-content-item desk-pad-left-70">
                                 <div className="footer-content-title">
                                     <h3>Contact</h3>
@@ -75,7 +69,7 @@ const Footer = () => {
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Phone:</h4>
-                                            <p><a href="tel:001-987-654-432">(+91) 987 654 432 1</a></p>
+                                            <p><a href="tel:001-987-654-432">(+91) 40 4868 4455</a></p>
                                         </div>
                                     </div>
                                     <div className="footer-address-item">
@@ -87,7 +81,7 @@ const Footer = () => {
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Address:</h4>
-                                            <p>214, Queens 4th cross, INDIA</p>
+                                            <p>H.No.1-90/2/10/E, Ground Floor, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana - 500081, INDIA</p>
                                         </div>
                                     </div>
                                 </div>
@@ -101,7 +95,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="footer-copyright-text footer-copyright-text-white">
                         <p>Copyright ©2021 Smarttrak. Designed &amp; Developed By <a href="#"
-                                                                                  target="_blank">Smarttrak</a></p>
+                                                                                     target="_blank">Smarttrak</a></p>
                     </div>
                 </div>
             </div>
