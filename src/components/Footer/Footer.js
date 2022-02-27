@@ -56,7 +56,7 @@ const Footer = () => {
                                         <Link to="/career">Career</Link>
                                     </li>
                                     <li>
-                                        <Link to="/service">Services</Link>
+                                        <Link to="/solutions">Solutions</Link>
                                     </li>
                                     <li>
                                         <Link to="/contact">Contact Us</Link>
@@ -74,7 +74,7 @@ const Footer = () => {
                                         <div className="footer-address-text">
                                             <h4>Phone:</h4>
                                             <p>
-                                                <Link to={{pathname: "tel:001-987-654-432"}} target="_blank">(+91) 40 4868 4455</Link>
+                                                <Link to={{pathname: "tel:001-987-654-432"}} target="_blank">(+1) 510-945-8169</Link>
                                             </p>
                                         </div>
                                     </div>
@@ -82,14 +82,14 @@ const Footer = () => {
                                         <div className="footer-address-text">
                                             <h4>Email:</h4>
                                             <p>
-                                                <Link to={{pathname: "mailto:info@erudex.com"}} target="_blank">info@smarttrak.com</Link>
+                                                <Link to={{pathname: "mailto:info@erudex.com"}} target="_blank">info@smarttrak.co</Link>
                                             </p>
                                         </div>
                                     </div>
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Address:</h4>
-                                            <p>H.No.1-90/2/10/E, Ground Floor, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana - 500081, INDIA</p>
+                                            <p>321 Trautz Ln, Holly Springs,NC 27540 USA</p>
                                         </div>
                                     </div>
                                 </div>

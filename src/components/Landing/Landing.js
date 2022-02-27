@@ -9,7 +9,7 @@ const Landing = () => {
                     <div className="banner-carousel default-carousel owl-carousel owl-theme owl-loaded owl-drag">
                         <div className="owl-stage-outer pt-0">
                             <div className="owl-stage">
-                                <div className="owl-item cloned">
+                                <div className="owl-item">
                                     <div className="item">
                                         <div className="big-image clone-0">
                                             <div className="overlay">
@@ -20,7 +20,7 @@ const Landing = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="owl-item cloned">
+                                <div className="owl-item">
                                     <div className="item">
                                         <div className="big-image clone-1">
                                             <div className="overlay">
@@ -33,7 +33,7 @@ const Landing = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="owl-item cloned">
+                                <div className="owl-item">
                                     <div className="item">
                                         <div className="big-image clone-2">
                                             <div className="overlay">
@@ -66,21 +66,21 @@ const Landing = () => {
                     </div>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="col-md-6 col-lg-3 pb-30">
                                 <div className="feature-card">
                                     <div className="feature-card-header">
                                         <div className="feature-card-thumb feature-card-thumb-green">
                                             <i className="mdi mdi-account-tie"></i>
                                         </div>
-                                        <span>AI Technology</span>
+                                        <span>Artificial Intelligence</span>
                                     </div>
                                     <div className="feature-card-body">
                                         <p>End-to-end Deep Learning and Machine Learning models for building AI systems.</p>
-                                        <Link to="/aboutus" className="redirect-link">Discover More</Link>
+                                        <Link to="/ai-details" className="redirect-link">Discover More</Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="col-md-6 col-lg-3 pb-30">
                                 <div className="feature-card">
                                     <div className="feature-card-header">
                                         <div className="feature-card-thumb feature-card-thumb-yellow">
@@ -90,11 +90,11 @@ const Landing = () => {
                                     </div>
                                     <div className="feature-card-body">
                                         <p>A digital twin is a virtual/ digital replica of physical entities which help businesses make model-driven decisions.</p>
-                                        <Link to="/aboutus" className="redirect-link">Discover More</Link>
+                                        <Link to="/digital-twin" className="redirect-link">Discover More</Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-4 pb-30">
+                            <div className="col-md-6 col-lg-3 pb-30">
                                 <div className="feature-card">
                                     <div className="feature-card-header">
                                         <div className="feature-card-thumb feature-card-thumb-blue">
@@ -103,8 +103,22 @@ const Landing = () => {
                                         <span>Robotics</span>
                                     </div>
                                     <div className="feature-card-body">
-                                        <p>Artificial intelligence robots are a combination of AI and robotics, where AI software is embedded in robot systems.</p>
-                                        <Link to="/aboutus" className="redirect-link">Discover More</Link>
+                                        <p>A robot is an autonomous physical machine designed to perform actions automatically with speed and accuracy.</p>
+                                        <Link to="/robotics" className="redirect-link">Discover More</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-3 pb-30">
+                                <div className="feature-card">
+                                    <div className="feature-card-header">
+                                        <div className="feature-card-thumb feature-card-thumb-blue">
+                                            <i className="mdi mdi-account-network"></i>
+                                        </div>
+                                        <span>Edge Computing</span>
+                                    </div>
+                                    <div className="feature-card-body">
+                                        <p>AI relies heavily on data transmission and computation of complex machine learning algorithms.</p>
+                                        <Link to="/edge-computing" className="redirect-link">Discover More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -145,57 +159,42 @@ const Landing = () => {
             <div className="service-section pt-100 pb-70">
                 <div className="container">
                     <div className="section-title section-title-lg">
-                        <small>Services</small>
+                        <small>Solutions</small>
                         <h2>Redefine the way you do business with Smarttrak Solutions</h2>
                         <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver
                             excellence in service and Our purpose is to deliver excellence in service.</p>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 col-lg-3 pb-30">
+                        <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
                                     <i className="mdi mdi-robot-industrial"></i>
                                 </div>
                                 <div className="service-card-body">
-                                    <h3>Robotic Automation</h3>
-                                    <p>Robotic process automation (RPA) is a software technology that makes it easy to build, deploy, and
-                                        manage software.</p>
+                                    <h3>Advanced AI for Manufacturing</h3>
+                                    <p>The most important asset for a manufacturing company is its machinery.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3 pb-30">
+                        <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
                                     <i className="mdi mdi-home-analytics"></i>
                                 </div>
                                 <div className="service-card-body">
-                                    <h3>Predictive Analytics</h3>
-                                    <p>It refers to the use of statistics and modeling techniques to make
-                                        predictions about future outcomes and performance.</p>
+                                    <h3>Smart Solar Energy Management</h3>
+                                    <p>Save energy for a sustainable world with our Advanced AI-enabled solution.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3 pb-30">
+                        <div className="col-md-6 col-lg-4 pb-30">
                             <div className="service-card">
                                 <div className="service-card-thumb">
                                     <i className="mdi mdi-school-outline"></i>
                                 </div>
                                 <div className="service-card-body">
-                                    <h3>Deep Learning</h3>
-                                    <p>It is extremely beneficial to data scientists who are tasked with collecting,
-                                        analyzing and interpreting large amounts of data.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-lg-3 pb-30">
-                            <div className="service-card">
-                                <div className="service-card-thumb">
-                                    <i className="mdi mdi-cable-data"></i>
-                                </div>
-                                <div className="service-card-body">
-                                    <h3>Data Mining</h3>
-                                    <p>Data mining is the process of finding anomalies, patterns and correlations within
-                                        large data sets to predict outcomes.</p>
+                                    <h3>Predictive Maintenance</h3>
+                                    <p>It uses condition-monitoring tools and techniques to monitor the performance of a structure or a piece of equipment during operation.</p>
                                 </div>
                             </div>
                         </div>

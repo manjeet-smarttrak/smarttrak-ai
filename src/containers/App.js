@@ -3,11 +3,16 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 import Landing from "../components/Landing/Landing";
 import AboutUs from "../components/AboutUs/AboutUs";
-import Services from "../components/Services/Services";
+import Solutions from "../components/Solutions/Solutions";
 import ContactUs from "../components/ContactUs/ContactUs";
 import Career from "../components/Career/Career";
 import Investor from "../components/Investor/Investor";
 import Footer from "../components/Footer/Footer";
+import ArtificialIntelligence from "../components/ArtificialIntelligence/ArtificialIntelligence";
+import DigitalTwin from "../components/DigitalTwin/DigitalTwin";
+import EdgeComputing from "../components/EdgeComputing/EdgeComputing";
+import Robotics from "../components/Robotics/Robotics";
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Switch from "react-bootstrap/cjs/Switch";
@@ -22,10 +27,14 @@ const App = () => {
                         <Navbar/>
                         <Route path='/' exact component={Landing} />
                         <Route path='/aboutus' component={AboutUs} />
-                        <Route path='/services' component={Services} />
+                        <Route path='/solutions' component={Solutions} />
                         <Route path='/contact' component={ContactUs} />
                         <Route path='/career' component={Career} />
                         <Route path='/investor' component={Investor} />
+                        <Route path='/ai-details' component={ArtificialIntelligence} />
+                        <Route path='/digital-twin' component={DigitalTwin} />
+                        <Route path='/edge-computing' component={EdgeComputing} />
+                        <Route path='/robotics' component={Robotics} />
                         <Footer/>
                     </Switch>
                 </ScrollIntoView>

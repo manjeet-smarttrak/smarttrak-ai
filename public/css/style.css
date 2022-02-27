@@ -471,6 +471,9 @@ button:focus, button:active {
   margin-bottom: 30px;
   position: relative;
 }
+.section-title ul li {
+  color: #767676;
+}
 
 .section-title p:last-child {
   margin-bottom: 0;

@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-const services = () => {
+const solutions = () => {
 	return (
         <section id="coming-soon">
             <div className="container d-flex flex-column align-items-center justify-content-center">
@@ -18,4 +18,4 @@ const services = () => {
 	);
 };
 
-export default services;
+export default solutions;
