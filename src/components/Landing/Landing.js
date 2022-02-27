@@ -173,6 +173,7 @@ const Landing = () => {
                                 <div className="service-card-body">
                                     <h3>Advanced AI for Manufacturing</h3>
                                     <p>The most important asset for a manufacturing company is its machinery.</p>
+                                    <Link to="/advanced-ai" className="redirect-link">Discover More</Link>
                                 </div>
                             </div>
                         </div>
@@ -184,6 +185,7 @@ const Landing = () => {
                                 <div className="service-card-body">
                                     <h3>Smart Solar Energy Management</h3>
                                     <p>Save energy for a sustainable world with our Advanced AI-enabled solution.</p>
+                                    <Link to="/smart-solar" className="redirect-link">Discover More</Link>
                                 </div>
                             </div>
                         </div>
@@ -195,6 +197,7 @@ const Landing = () => {
                                 <div className="service-card-body">
                                     <h3>Predictive Maintenance</h3>
                                     <p>It uses condition-monitoring tools and techniques to monitor the performance of a structure or a piece of equipment during operation.</p>
+                                    <Link to="/predictive" className="redirect-link">Discover More</Link>
                                 </div>
                             </div>
                         </div>
