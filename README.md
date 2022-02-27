@@ -9,4 +9,4 @@ npm install
 npm start to run http://localhost:3000/
 
 
-![Smarttrak-UI](https://user-images.githubusercontent.com/88642733/155881545-220e5058-901f-4dfb-83ab-3a0e83f57d65.png)
+![smarttrak-UI](https://user-images.githubusercontent.com/88642733/155892748-7e6ef445-e467-4a19-b1c0-b5f7f6a06cbc.png)
