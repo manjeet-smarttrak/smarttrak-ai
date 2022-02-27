@@ -23,17 +23,21 @@ const Footer = () => {
                                         <img src="images/index/logo.png" alt="logo" className="logo logo-image"/></Link>
                                 </div>
                                 <div className="footer-details">
-                                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                        sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                                    <p>
+                                        Grow smarter, grow faster as we need solutions at the right place and here we are empowering all the needs.
+                                    </p>
                                     <ul className="social-list social-list-btn">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank"><i className="mdi mdi-facebook"></i></a>
+                                            <Link to={{pathname: "https://www.facebook.com/SmarttrakSolarSystems/"}} target="_blank"><i className="mdi mdi-facebook"></i></Link>
+                                        </li>
+                                        {/*<li>
+                                            <Link to={{pathname: "https://www.instagram.com"}} target="_blank"><i className="mdi mdi-instagram"></i></Link>
+                                        </li>*/}
+                                        <li>
+                                            <Link to={{pathname: "https://www.youtube.com/results?search_query=smarttrak+solar"}} target="_blank"><i className="mdi mdi-youtube"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/" target="_blank"><i className="mdi mdi-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.youtube.com/" target="_blank"><i className="mdi mdi-youtube"></i></a>
+                                            <Link to={{pathname: "https://in.linkedin.com/company/smarttrak-solar-systems-private-limited"}} target="_blank"><i className="mdi mdi-linkedin"></i></Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -46,16 +50,16 @@ const Footer = () => {
                                 </div>
                                 <ul className="footer-details footer-list">
                                     <li>
-                                        <a><Link to="/aboutus">About Us</Link></a>
+                                        <Link to="/aboutus">About Us</Link>
                                     </li>
                                     <li>
-                                        <a><Link to="/career">Career</Link></a>
+                                        <Link to="/career">Career</Link>
                                     </li>
                                     <li>
-                                        <a><Link to="/service">Services</Link></a>
+                                        <Link to="/service">Services</Link>
                                     </li>
                                     <li>
-                                        <a><Link to="/contact">Contact Us</Link></a>
+                                        <Link to="/contact">Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -69,13 +73,17 @@ const Footer = () => {
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Phone:</h4>
-                                            <p><a href="tel:001-987-654-432">(+91) 40 4868 4455</a></p>
+                                            <p>
+                                                <Link to={{pathname: "tel:001-987-654-432"}} target="_blank">(+91) 40 4868 4455</Link>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="footer-address-item">
                                         <div className="footer-address-text">
                                             <h4>Email:</h4>
-                                            <p><a href="mailto:info@erudex.com">info@smarttrak.com</a></p>
+                                            <p>
+                                                <Link to={{pathname: "mailto:info@erudex.com"}} target="_blank">info@smarttrak.com</Link>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="footer-address-item">
@@ -94,8 +102,7 @@ const Footer = () => {
             <div className="footer-lower bg-blue position-relative">
                 <div className="container">
                     <div className="footer-copyright-text footer-copyright-text-white">
-                        <p>Copyright ©2021 Smarttrak. Designed &amp; Developed By <a href="#"
-                                                                                     target="_blank">Smarttrak</a></p>
+                        <p>Copyright ©2021 Smarttrak. Designed &amp; Developed By <Link to="/">Smarttrak</Link></p>
                     </div>
                 </div>
             </div>
@@ -105,27 +112,6 @@ const Footer = () => {
                     <i className="mdi mdi-arrow-up"></i>
                 </div>
             </div>
-
-            {/*<div className="search-overlay">
-                <div className="search-close">
-                    <i className="mdi mdi-close"></i>
-                </div>
-                <div className="search-form-area">
-                    <div className="search-area-logo">
-                        <a href="https://templates.envytheme.com/erudex/default/index.html">
-                            <img src="images/index/logo-white.png" alt="logo" className="logo logo-image"/>
-                        </a>
-                    </div>
-                    <form>
-                        <div className="form-group search-form-group">
-                            <input type="text" placeholder="Search..." className="form-control" autoFocus="autofocus"/>
-                            <button>
-                                <i className="mdi mdi-magnify"></i>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>*/}
         </footer>
     );
 };

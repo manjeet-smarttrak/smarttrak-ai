@@ -4,24 +4,12 @@ import {Link} from "react-router-dom";
 const navbar = () => {
     return (
         <div className="fixed-top non-fixed">
-            <div className="navbar-area sticky-black is-sticky">
+            <div className="navbar-area sticky-black bg-white is-sticky">
                 <div className="container-fluid">
                     <div className="mobile-nav">
                         <Link to="/" onClick={() => {window.location.href="/"}} className="mobile-brand">
                             <img src="images/index/logo.png" alt="logo" className="logo logo-image"/>
                         </Link>
-                        <div className="navbar-option">
-                            <div className="navbar-option-item">
-                                <button type="button">
-                                    <i className="mdi mdi-account-outline"></i>
-                                </button>
-                            </div>
-                            <div className="navbar-option-item side-topbar-option">
-                                <button type="button">
-                                    <i className="mdi mdi-apps"></i>
-                                </button>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className="main-nav">
@@ -36,7 +24,7 @@ const navbar = () => {
                                     <li className="nav-item">
                                         <Link to="/"
                                               onClick={() => {window.location.href="/"}}
-                                           className="nav-link active">Home</Link>
+                                           className="nav-link">Home</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/aboutus" className="nav-link">About Us</Link>

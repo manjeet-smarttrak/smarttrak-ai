@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollToTop from "react-scroll-to-top";
 import {Link} from "react-router-dom";
 
 const career = () => {
